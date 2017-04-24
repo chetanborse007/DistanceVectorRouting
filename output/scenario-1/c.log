@@ -1,0 +1,114 @@
+Chetans-MacBook-Pro:DistanceVectorRouting chetan$ python ClientApp.py -n c -p 8082 -f c.dat
+2017-04-23 22:37:45,897 DISTANCE VECTOR ROUTING [INFO] Running Distance Vector Routing at router: c
+2017-04-23 22:37:45,897 DISTANCE VECTOR ROUTING [INFO] Creating UDP socket 127.0.0.1:8082
+2017-04-23 22:37:45,897 DISTANCE VECTOR ROUTING [INFO] Loading router information from: c.dat
+2017-04-23 22:37:45,927 DISTANCE VECTOR ROUTING [INFO] Creating a thread to run Distance Vector Routing algorithm
+2017-04-23 22:37:45,927 DISTANCE VECTOR ROUTING [INFO] Creating a thread to monitor links with neighbour routers
+2017-04-23 22:37:45,928 DISTANCE VECTOR ROUTING [INFO] Starting thread execution
+2017-04-23 22:37:45,928 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Sending distance vector to neighbour routers
+2017-04-23 22:37:45,928 DISTANCE VECTOR ROUTING [INFO] [RouterLinkMonitor] Started monitoring links for a router: c
+2017-04-23 22:37:45,929 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Sequence Number: <1>
+2017-04-23 22:37:45,930 DISTANCE VECTOR ROUTING [DEBUG] [DistanceVectorRouting] Shortest Path c-a: Cost [7.000000], Next Hop Router [a]
+2017-04-23 22:37:45,930 DISTANCE VECTOR ROUTING [DEBUG] [DistanceVectorRouting] Shortest Path c-c: Cost [0.000000], Next Hop Router [c]
+2017-04-23 22:37:45,931 DISTANCE VECTOR ROUTING [DEBUG] [DistanceVectorRouting] Shortest Path c-b: Cost [1.000000], Next Hop Router [b]
+2017-04-23 22:38:00,935 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Sending distance vector to neighbour routers
+2017-04-23 22:38:00,936 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Sequence Number: <2>
+2017-04-23 22:38:00,936 DISTANCE VECTOR ROUTING [DEBUG] [DistanceVectorRouting] Shortest Path c-a: Cost [7.000000], Next Hop Router [a]
+2017-04-23 22:38:00,936 DISTANCE VECTOR ROUTING [DEBUG] [DistanceVectorRouting] Shortest Path c-c: Cost [0.000000], Next Hop Router [c]
+2017-04-23 22:38:00,936 DISTANCE VECTOR ROUTING [DEBUG] [DistanceVectorRouting] Shortest Path c-b: Cost [1.000000], Next Hop Router [b]
+2017-04-23 22:38:00,938 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Received packet from: 127.0.0.1:8080
+2017-04-23 22:38:00,938 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Updating routing table
+2017-04-23 22:38:00,938 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Received packet from: 127.0.0.1:8081
+2017-04-23 22:38:00,938 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Updating routing table
+2017-04-23 22:38:15,939 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Sending distance vector to neighbour routers
+2017-04-23 22:38:15,940 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Sequence Number: <3>
+2017-04-23 22:38:15,940 DISTANCE VECTOR ROUTING [DEBUG] [DistanceVectorRouting] Shortest Path c-a: Cost [3.000000], Next Hop Router [b]
+2017-04-23 22:38:15,940 DISTANCE VECTOR ROUTING [DEBUG] [DistanceVectorRouting] Shortest Path c-c: Cost [0.000000], Next Hop Router [c]
+2017-04-23 22:38:15,940 DISTANCE VECTOR ROUTING [DEBUG] [DistanceVectorRouting] Shortest Path c-b: Cost [1.000000], Next Hop Router [b]
+2017-04-23 22:38:15,940 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Received packet from: 127.0.0.1:8080
+2017-04-23 22:38:15,940 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Updating routing table
+2017-04-23 22:38:15,941 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Received packet from: 127.0.0.1:8081
+2017-04-23 22:38:15,941 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Updating routing table
+2017-04-23 22:38:30,941 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Sending distance vector to neighbour routers
+2017-04-23 22:38:30,941 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Sequence Number: <4>
+2017-04-23 22:38:30,941 DISTANCE VECTOR ROUTING [DEBUG] [DistanceVectorRouting] Shortest Path c-a: Cost [3.000000], Next Hop Router [b]
+2017-04-23 22:38:30,942 DISTANCE VECTOR ROUTING [DEBUG] [DistanceVectorRouting] Shortest Path c-c: Cost [0.000000], Next Hop Router [c]
+2017-04-23 22:38:30,942 DISTANCE VECTOR ROUTING [DEBUG] [DistanceVectorRouting] Shortest Path c-b: Cost [1.000000], Next Hop Router [b]
+2017-04-23 22:38:30,942 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Received packet from: 127.0.0.1:8080
+2017-04-23 22:38:30,942 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Updating routing table
+2017-04-23 22:38:30,943 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Received packet from: 127.0.0.1:8081
+2017-04-23 22:38:30,943 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Updating routing table
+2017-04-23 22:38:45,948 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Sending distance vector to neighbour routers
+2017-04-23 22:38:45,948 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Sequence Number: <5>
+2017-04-23 22:38:45,948 DISTANCE VECTOR ROUTING [DEBUG] [DistanceVectorRouting] Shortest Path c-a: Cost [3.000000], Next Hop Router [b]
+2017-04-23 22:38:45,948 DISTANCE VECTOR ROUTING [DEBUG] [DistanceVectorRouting] Shortest Path c-c: Cost [0.000000], Next Hop Router [c]
+2017-04-23 22:38:45,949 DISTANCE VECTOR ROUTING [DEBUG] [DistanceVectorRouting] Shortest Path c-b: Cost [1.000000], Next Hop Router [b]
+2017-04-23 22:38:45,949 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Received packet from: 127.0.0.1:8080
+2017-04-23 22:38:45,949 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Updating routing table
+2017-04-23 22:38:45,950 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Received packet from: 127.0.0.1:8081
+2017-04-23 22:38:45,950 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Updating routing table
+2017-04-23 22:39:00,951 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Sending distance vector to neighbour routers
+2017-04-23 22:39:00,951 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Sequence Number: <6>
+2017-04-23 22:39:00,951 DISTANCE VECTOR ROUTING [DEBUG] [DistanceVectorRouting] Shortest Path c-a: Cost [7.000000], Next Hop Router [a]
+2017-04-23 22:39:00,951 DISTANCE VECTOR ROUTING [DEBUG] [DistanceVectorRouting] Shortest Path c-c: Cost [0.000000], Next Hop Router [c]
+2017-04-23 22:39:00,951 DISTANCE VECTOR ROUTING [DEBUG] [DistanceVectorRouting] Shortest Path c-b: Cost [1.000000], Next Hop Router [b]
+2017-04-23 22:39:00,952 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Received packet from: 127.0.0.1:8080
+2017-04-23 22:39:00,952 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Updating routing table
+2017-04-23 22:39:00,952 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Received packet from: 127.0.0.1:8081
+2017-04-23 22:39:00,953 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Updating routing table
+2017-04-23 22:39:15,958 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Sending distance vector to neighbour routers
+2017-04-23 22:39:15,958 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Sequence Number: <7>
+2017-04-23 22:39:15,958 DISTANCE VECTOR ROUTING [DEBUG] [DistanceVectorRouting] Shortest Path c-a: Cost [7.000000], Next Hop Router [a]
+2017-04-23 22:39:15,959 DISTANCE VECTOR ROUTING [DEBUG] [DistanceVectorRouting] Shortest Path c-c: Cost [0.000000], Next Hop Router [c]
+2017-04-23 22:39:15,959 DISTANCE VECTOR ROUTING [DEBUG] [DistanceVectorRouting] Shortest Path c-b: Cost [1.000000], Next Hop Router [b]
+2017-04-23 22:39:15,959 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Received packet from: 127.0.0.1:8080
+2017-04-23 22:39:15,959 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Updating routing table
+2017-04-23 22:39:15,960 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Received packet from: 127.0.0.1:8081
+2017-04-23 22:39:15,960 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Updating routing table
+2017-04-23 22:39:30,963 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Sending distance vector to neighbour routers
+2017-04-23 22:39:30,964 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Sequence Number: <8>
+2017-04-23 22:39:30,964 DISTANCE VECTOR ROUTING [DEBUG] [DistanceVectorRouting] Shortest Path c-a: Cost [7.000000], Next Hop Router [a]
+2017-04-23 22:39:30,964 DISTANCE VECTOR ROUTING [DEBUG] [DistanceVectorRouting] Shortest Path c-c: Cost [0.000000], Next Hop Router [c]
+2017-04-23 22:39:30,964 DISTANCE VECTOR ROUTING [DEBUG] [DistanceVectorRouting] Shortest Path c-b: Cost [1.000000], Next Hop Router [b]
+2017-04-23 22:39:30,965 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Received packet from: 127.0.0.1:8080
+2017-04-23 22:39:30,965 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Updating routing table
+2017-04-23 22:39:30,965 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Received packet from: 127.0.0.1:8081
+2017-04-23 22:39:30,965 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Updating routing table
+2017-04-23 22:39:45,970 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Sending distance vector to neighbour routers
+2017-04-23 22:39:45,971 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Sequence Number: <9>
+2017-04-23 22:39:45,971 DISTANCE VECTOR ROUTING [DEBUG] [DistanceVectorRouting] Shortest Path c-a: Cost [7.000000], Next Hop Router [a]
+2017-04-23 22:39:45,971 DISTANCE VECTOR ROUTING [DEBUG] [DistanceVectorRouting] Shortest Path c-c: Cost [0.000000], Next Hop Router [c]
+2017-04-23 22:39:45,971 DISTANCE VECTOR ROUTING [DEBUG] [DistanceVectorRouting] Shortest Path c-b: Cost [1.000000], Next Hop Router [b]
+2017-04-23 22:39:45,972 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Received packet from: 127.0.0.1:8080
+2017-04-23 22:39:45,972 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Updating routing table
+2017-04-23 22:39:45,972 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Received packet from: 127.0.0.1:8081
+2017-04-23 22:39:45,972 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Updating routing table
+2017-04-23 22:40:00,976 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Sending distance vector to neighbour routers
+2017-04-23 22:40:00,976 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Sequence Number: <10>
+2017-04-23 22:40:00,976 DISTANCE VECTOR ROUTING [DEBUG] [DistanceVectorRouting] Shortest Path c-a: Cost [7.000000], Next Hop Router [a]
+2017-04-23 22:40:00,976 DISTANCE VECTOR ROUTING [DEBUG] [DistanceVectorRouting] Shortest Path c-c: Cost [0.000000], Next Hop Router [c]
+2017-04-23 22:40:00,976 DISTANCE VECTOR ROUTING [DEBUG] [DistanceVectorRouting] Shortest Path c-b: Cost [1.000000], Next Hop Router [b]
+2017-04-23 22:40:00,977 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Received packet from: 127.0.0.1:8080
+2017-04-23 22:40:00,977 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Updating routing table
+2017-04-23 22:40:00,977 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Received packet from: 127.0.0.1:8081
+2017-04-23 22:40:00,978 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Updating routing table
+2017-04-23 22:40:15,983 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Sending distance vector to neighbour routers
+2017-04-23 22:40:15,983 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Sequence Number: <11>
+2017-04-23 22:40:15,983 DISTANCE VECTOR ROUTING [DEBUG] [DistanceVectorRouting] Shortest Path c-a: Cost [3.000000], Next Hop Router [b]
+2017-04-23 22:40:15,983 DISTANCE VECTOR ROUTING [DEBUG] [DistanceVectorRouting] Shortest Path c-c: Cost [0.000000], Next Hop Router [c]
+2017-04-23 22:40:15,983 DISTANCE VECTOR ROUTING [DEBUG] [DistanceVectorRouting] Shortest Path c-b: Cost [1.000000], Next Hop Router [b]
+2017-04-23 22:40:15,984 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Received packet from: 127.0.0.1:8080
+2017-04-23 22:40:15,984 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Updating routing table
+2017-04-23 22:40:15,984 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Received packet from: 127.0.0.1:8081
+2017-04-23 22:40:15,985 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Updating routing table
+2017-04-23 22:40:30,990 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Sending distance vector to neighbour routers
+2017-04-23 22:40:30,990 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Sequence Number: <12>
+2017-04-23 22:40:30,990 DISTANCE VECTOR ROUTING [DEBUG] [DistanceVectorRouting] Shortest Path c-a: Cost [3.000000], Next Hop Router [b]
+2017-04-23 22:40:30,990 DISTANCE VECTOR ROUTING [DEBUG] [DistanceVectorRouting] Shortest Path c-c: Cost [0.000000], Next Hop Router [c]
+2017-04-23 22:40:30,990 DISTANCE VECTOR ROUTING [DEBUG] [DistanceVectorRouting] Shortest Path c-b: Cost [1.000000], Next Hop Router [b]
+2017-04-23 22:40:30,991 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Received packet from: 127.0.0.1:8080
+2017-04-23 22:40:30,991 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Updating routing table
+2017-04-23 22:40:30,991 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Received packet from: 127.0.0.1:8081
+2017-04-23 22:40:30,992 DISTANCE VECTOR ROUTING [INFO] [DistanceVectorRouting] Updating routing table
+^C2017-04-23 22:40:40,433 DISTANCE VECTOR ROUTING [INFO] Shutting down the router: c
+Chetans-MacBook-Pro:DistanceVectorRouting chetan$ 
