@@ -43,6 +43,7 @@ If Z routes through Y to get to X , then Z tells Y its (Z’s) distance to X is 
 
 ## INPUT FORMAT
 Routing information file should have format as below,
+	
 	<Total Neighbor Routers>
 	<Router Name> <Link Cost> <IP Address> <Port>
 	.
@@ -52,6 +53,7 @@ Routing information file should have format as below,
 
 ## HOW TO RUN
 If there are 'n' routers, then run ClientApp.py in 'n' different terminals.
+
 	python ClientApp.py -n [router_name] -i [router_ip] -p [router_port] -f [router_information] -t [timeout] -w [www]
 	e.g. python ClientApp.py -n a -i 127.0.0.1 -p 8080 -f a.dat -t 15
 
